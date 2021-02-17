@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+font-family: Arial;
+margin: 0%;
+padding: 0%;
+} 
+header{
+background-color:   white;
+position: inherit;
+}
+header h1{
+font-size: 37px;
+color: black;
+letter-spacing: 2px;
+}
+header h1:hover{
+color: #4CAF50;
+}
+header h1 span{
+color: #4CAF50;
+}
+header h1 span:hover{
+color: black;
+}
+header h1 span.description{
+position: relative;
+color: black;
+font-size: 15px;
+font-weight: lighter;
+right: -1000px;
+letter-spacing: 2px;
+}
+header nav{
+width: 100%;
+padding: 21px;
+background-color: #4CAF50;
+position: relative;
+overflow: hidden;
+box-shadow: 0px 0px 2px black;
+}
+header nav a{
+text-decoration: none;
+color: white;
+padding: 25px 25px;
+font-size: 20px;
+letter-spacing: 4px;
+}
+nav a:hover{
+background-color: white;
+color: black;
+box-shadow: 0px 0px 10px 1px black;
+}
+div.agrid{
+display: flex;
+background-color: rgb(221, 210, 210);
+}
+div.agrid a{
+padding: 16px 39px;
+letter-spacing: 2px;
+text-decoration: none;
+color: black;
+font-weight: bolder;
+box-shadow: 0px 0px 0.05em black;
+}
+div.agrid a:hover{
+background-color: rgb(187, 176, 176);
+}
+div.malware-types{
+display: grid;
+background-color: rgb(221, 210, 210);
+width: max-content;
+box-shadow: 0px 0px 1px black;
+}
+div.malware-types a{
+padding: 20px 40px;
+box-shadow: 0px 0px 1px;
+text-decoration: none;
+color: black;
+font-weight: bolder;
+}
+div.malware-types a.virus{
+    background-color: #4CAF50;
+    color: white;
+}
+div.malware-types a:hover{
+background-color: rgb(187, 176, 176);
+}
+div.content{
+    background-color: white;
+}
+div.content h3{
+    position: relative;
+    top: -700px;
+    right: -400px;
+}
+div.content pre{
+    position: relative;
+    right: -400px;
+    top: -700px;
+    font-size: 18px;
+    font-family: arial;
+
+}
+</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Cybersecurity-blog<span>.com</span>
+        <span class="description">The world's best Cybersecurity blog</span></h1>
+    <nav>
+        <a href="/index.html">Index</a>
+    </nav>
+    </header>
+    <div class="agrid">
+        <a href="/tutorials/threat-attack-vuln/Threat-Actors.html">Threat, Attacks and Vulnerabilities </a>
+        <a href="/tutorials/tech-and-tools/tech-and-tools.html">Technology and tools</a><br><br>
+        <a href="arch-and-design">Architecture and design</a><br><br>
+        <a href="identity-and-access">Identity and access management</a><br><br>
+        <a href="risk-management">Risk management</a><br><br>
+        <a href="cryptography-and-pki">Cryptography and PKI</a><br><br>
+
+    </div>
+
+    <div class="malware-types">
+        <a href="/tutorials/threat-attack-vuln/determining-malware-types.html">Malware</a>
+        <a href="/tutorials/threat-attack-vuln/viruses.html" class="virus">Viruses</a>
+        <a href="/tutorials/threat-attack-vuln/worms.html">Worms</a>
+        <a href="/tutorials/threat-attack-vuln/logic-bombs.html">Logic Bombs</a>
+        <a href="/tutorials/threat-attack-vuln/backdoors.html">Backdoors</a>
+        <a href="">Trojans</a>
+        <a href="">RAT</a>
+        <a href="">Ransomware</a>
+        <a href="">Keylogger</a>
+        <a href="">Spyware</a>
+        <a href="">Adware</a>
+        <a href="">Bots and Botnets</a>
+        <a href="">Rootkits</a>
+    </div>
+    <div class="content">
+        <h3>Viruses</h3>
+        <pre>
+            A virusis malicious code that attachesitself to a host application.
+            The host application must be executed to run, and the malicious code
+            executes when the host application is executed. The virus tries to
+            replicate by finding other host applications to infect with the malicious
+            code. At some point, the virus activates and deliversits payload.
+            Typically, the payload of a virusis damaging. It may delete files,
+            cause random reboots, join the computerto a botnet, or enable backdoors
+            that attackers can use to accesssystemsremotely. Some older viruses
+            merely displayed a message at some point, such as “Legalize
+            Marijuana!” Most viruses won’t cause damage immediately.Instead, they
+            give the virustime to replicate first. A user will often execute the virus
+            (though unknowingly), but other times, an operating system will
+            automatically execute it after user interaction. For example, when a user
+            plugsin an
+            infected USB drive, the system might automatically execute the virus,
+            infecting the system.
+        </pre>>
+
+    </div>
+</body>
+</html>

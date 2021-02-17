@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+    font-family: Arial;
+    margin: 0%;
+    padding: 0%;
+} 
+header{
+    background-color:   white;
+    position: inherit;
+}
+header h1{
+    font-size: 37px;
+    color: black;
+    letter-spacing: 2px;
+}
+header h1:hover{
+    color: #4CAF50;
+}
+header h1 span{
+    color: #4CAF50;
+}
+header h1 span:hover{
+    color: black;
+}
+header h1 span.description{
+    position: relative;
+    color: black;
+    font-size: 15px;
+    font-weight: lighter;
+    right: -1000px;
+    letter-spacing: 2px;
+}
+header nav{
+    width: 100%;
+    padding: 21px;
+    background-color: #4CAF50;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 2px black;
+}
+header nav a{
+    text-decoration: none;
+    color: white;
+    padding: 25px 25px;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10px 1px black;
+}
+body form{
+    background-color: rgb(223, 198, 198);
+    text-align: center;
+    position: relative;
+    width: 500px;
+    top: 100px;
+    left: 750px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 25px;
+}
+form span{
+    font-weight: bolder;
+    font-size: 20px;
+}
+form label{
+    padding: 20px;
+}
+form input{
+    padding: 10px;
+}
+form label.email{
+    padding: 16px;
+    margin: 20px;
+    position: relative;
+    font-weight: bolder;
+
+}
+form label.password{
+    font-weight: bolder;
+}
+form button{
+    padding: 7px;
+    font-weight: bolder;
+    position: relative;
+    background-color: #4CAF50;
+    color: white;
+}
+form button:hover{
+    background-color: white;
+    color: black;
+}
+form a:hover{
+    color: black;
+}
+form p{
+    font-weight: bold;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Cybersecurity-blog<span>.com</span>
+        <span class="description">The world's best Cybersecurity blog</span></h1>
+    <nav>
+        <a href="/index.html">Index</a>
+    </nav>
+    </header>
+    <form>
+        <br>
+        <span>LOG IN</span><br><br><br>
+        <label for="email" class="email">Email</label>
+        <input type="email" id="email" placeholder="email address" required size="25"><br>
+        <label for="password" class="password">Password</label>
+        <input type="password" id="password" placeholder="password" size="25" required><br><br>
+        <button>SUBMIT</button><br><br>
+        <a href="/newpass.html">Forgot Password?</a><br><br>
+        <p>New User? <span><a href="/signup.html">Sign Up For Free!</a></span></p><br><br>
+    </form>
+    
+</body>
+</html>

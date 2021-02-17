@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+    font-family: Arial;
+    margin: 0%;
+    padding: 0%;
+} 
+header{
+    background-color:   white;
+    position: inherit;
+}
+header h1{
+    font-size: 37px;
+    color: black;
+    letter-spacing: 2px;
+}
+header h1:hover{
+    color: #4CAF50;
+}
+header h1 span{
+    color: #4CAF50;
+}
+header h1 span:hover{
+    color: black;
+}
+header h1 span.description{
+    position: relative;
+    color: black;
+    font-size: 15px;
+    font-weight: lighter;
+    right: -1000px;
+    letter-spacing: 2px;
+}
+header nav{
+    width: 100%;
+    padding: 21px;
+    background-color: #4CAF50;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 2px black;
+}
+header nav a{
+    text-decoration: none;
+    color: white;
+    padding: 25px 25px;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10px 1px black;
+}
+body form{
+    position: relative;
+    background-color: rgb(223, 198, 198);
+    width: 700px;
+    height: 400px;
+    right: -650px;
+    padding: 20px;
+    top: 150px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 25px;
+}
+body form span{
+    position: relative;
+    font-weight: bolder;
+    font-size: 20px;
+    left: 300px;
+}
+form div.name label{
+    padding: 30px;
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+}
+form div.name input{
+    padding: 5px;
+    box-shadow: 0.01em 0.01em 0.01em 0.01em black;
+}
+form div.email label{
+    padding: 30px;
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+}
+form div.email input{
+    padding: 5px;
+    position: relative;
+    left: 47px;
+    box-shadow: 0.01em 0.01em 0.01em 0.01em black;
+}
+form div.password label{
+    padding: 30px;
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+}
+form div.password input{
+    padding: 5px;
+    position: relative;
+    left: 3px;
+    box-shadow: 0.01em 0.01em 0.01em 0.01em black;
+}
+form div.rpassword label{
+    padding: 30px;
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+}
+form div.rpassword input{
+    padding: 5px;
+    box-shadow: 0.01em 0.01em 0.01em 0.01em black;
+}
+form div.create{
+    position: relative;
+    padding: 10px;
+    bottom: -50px;
+    text-align: center;
+}
+form div.create button{
+    background-color: #4CAF50;
+    color: white;
+    position: relative;
+    padding: 13px;
+    font-weight: bolder;
+    font-size: 15px;
+    box-shadow: 0px 0px 2px black;
+
+}
+form div.create button:hover{
+    color: black;
+    background-color: white;
+
+}
+form div.checkbox{
+    position: relative;
+    left: 25px;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Cybersecurity-blog<span>.com</span>
+        <span class="description">The world's best Cybersecurity blog</span></h1>
+    <nav>
+        <a href="/index.html">Index</a>
+    </nav>
+    </header>
+    <form>
+        <span>SIGN UP</span><br><br><br><br>
+        <div class="name">
+            <label for="fname">FIRST NAME</label>
+            <input type="name" id="fname" placeholder="first name" required>
+            <label for="lname">LAST NAME</label>
+            <input type="name" id="lname" placeholder="last name" required>
+        </div><br>
+
+        <div class="email">
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" id="email" placeholder="email address" required >
+        </div><br>
+
+        <div class="password">
+            <label for="password">PASSWORD</label>
+            <input type="password" name="password" id="password" placeholder="password">
+        </div><br>
+
+        <div class="rpassword">
+            <label for="rpassword">REPEAT PASSWORD</label>
+            <input type="password" name="rpassword" id="rpassword" placeholder="repeat password" required>
+        </div><br>
+
+        <div class="checkbox">
+            <input type="checkbox" name="term-condition" id="term-condition" required>
+            <label for="term-condition">By signing up, I agree to have read and accepted the term and condition</label>
+        </div>
+        
+        <div class="create">
+            <button>CREATE ACCOUNT</button>
+        </div>
+    </form>
+</body>
+</html>

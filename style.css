@@ -1,0 +1,133 @@
+body{
+    font-family: Arial;
+    margin: 0%;
+    padding: 0%;
+} 
+header{
+    background-color:   white;
+    position: inherit;
+}
+header h1{
+    font-size: 37px;
+    color: black;
+    letter-spacing: 2px;
+}
+header h1:hover{
+    color: #4CAF50;
+}
+header h1 span{
+    color: #4CAF50;
+}
+header h1 span:hover{
+    color: black;
+}
+header h1 span.description{
+    position: relative;
+    color: black;
+    font-size: 15px;
+    font-weight: lighter;
+    right: -1000px;
+    letter-spacing: 2px;
+}
+header a.login{
+    text-decoration: none;
+    position: relative;
+    right: -94%;
+    top: -50px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+}
+header a.login:hover{
+    background-color: rgb(24, 75, 31);
+    box-shadow: 0px 0px 2px black;
+}
+header nav{
+    width: 100%;
+    padding: 21px;
+    background-color: #4CAF50;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 2px black;
+}
+header nav a{
+    text-decoration: none;
+    color: white;
+    padding: 25px 25px;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10px 1px black;
+}
+body div img{
+    position: relative;
+    width: 15%;
+    height: 400px;
+    left: 80%;
+    top: 100px;
+    box-shadow: 1px 1px 3px 3px black;
+}
+body div img.vegan{
+    position: relative;
+    width: 15%;
+    height: 400px;
+    left: 80%;
+    top: 140px;
+    box-shadow: 1px 1px 3px 3px black;
+}
+div span.adds{
+    position: relative;
+    left: 72%;
+    top: 120px;
+    font-weight: bolder;
+}
+div span.adds2{
+    position: relative;
+    left: 72%;
+    top: 160px;
+    font-weight: bolder;
+}
+div.about h3{
+    position: relative;
+    left: 5%;
+    top: -700px;
+}
+div.about pre{
+    position: relative;
+    left: 8%;
+    top: -695px;
+    font-size: 18px;
+    font-family: Arial;
+}
+div.footer{
+    background-color: rgb(179, 169, 169);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+div.footer a{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(231, 225, 225);
+    border-radius: 50px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 1px 2px 1px 1px rgb(197, 194, 194);
+
+}
+div.footer a i{
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+div.footer a i:hover{
+    transform: scale(1.1);
+}

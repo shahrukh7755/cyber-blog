@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+         body{
+    font-family: Arial;
+    margin: 0%;
+    padding: 0%;
+} 
+header{
+    background-color:   white;
+    position: inherit;
+}
+header h1{
+    font-size: 37px;
+    color: black;
+    letter-spacing: 2px;
+}
+header h1:hover{
+    color: #4CAF50;
+}
+header h1 span{
+    color: #4CAF50;
+}
+header h1 span:hover{
+    color: black;
+}
+header h1 span.description{
+    position: relative;
+    color: black;
+    font-size: 15px;
+    font-weight: lighter;
+    right: -1000px;
+    letter-spacing: 2px;
+}
+header nav{
+    width: 100%;
+    padding: 21px;
+    background-color: #4CAF50;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 2px black;
+}
+header nav a{
+    text-decoration: none;
+    color: white;
+    padding: 25px 25px;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10px 1px black;
+}
+body form{
+    position: relative;
+    background-color: rgb(223, 198, 198);
+    width: 700px;
+    height: 400px;
+    right: -650px;
+    padding: 20px;
+    top: 150px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 25px;
+}form h2{
+    text-align: center;
+}
+form p{
+    text-align: center;
+}
+form div.newpass{
+    position: relative;
+    left: 145px;
+}
+form div input{
+    padding: 17px;
+    width: 50%;
+}
+form div button{
+    position: relative;
+    left: 270px;
+    padding: 10px 10px; 
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: #4CAF50;
+    color: white;
+    box-shadow: 0px 0px 1px black;
+}
+form div button:hover{
+    background-color: white;
+    color: black;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Cybersecurity-blog<span>.com</span>
+        <span class="description">The world's best Cybersecurity blog</span></h1>
+    <nav>
+        <a href="/index.html">Index</a>
+    </nav>
+    </header>
+    <form>
+        <h2>RESET PASSWORD</h2>
+        <p>Enter your username, and you will receive an e-mail with instructions on how to reset your password:</p><br><br><br>
+        
+        <div class="newpass">
+            <input type="password" id="password" name="password" placeholder="Enter you e-mail address" required>
+        </div><br><br>
+
+        <div class="reset">
+            <button>RESET PASSWORD</button>
+        </div>
+    </form>
+</body>
+</html>
