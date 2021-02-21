@@ -5,7 +5,7 @@ body{
 } 
 header{
     background-color:   white;
-    position: inherit;
+    position: sticky;
 }
 header h1{
     font-size: 37px;
@@ -114,20 +114,85 @@ div.footer{
 
 }
 div.footer a{
-    height: 100px;
-    width: 100px;
-    background-color: rgb(231, 225, 225);
+    height: 70px;
+    width: 70px;
+    background-color: #4CAF50;
     border-radius: 50px;
     text-align: center;
     margin: 20px;
     box-shadow: 1px 2px 1px 1px rgb(197, 194, 194);
+    color: white;
 
 }
 div.footer a i{
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding: 10px;
 }
 div.footer a i:hover{
     transform: scale(1.1);
+}
+div.bottom-footer{
+    background-color: black;
+    padding: 10px;
+}
+div.bottom-footer p{
+    color: white;
+    text-align: center;
+    font-family: arial;
+    font-size: 18px;
+}
+div.logo h1{
+    display: flex;
+    position: relative;
+    left: -260px;
+    font-size: 20px;
+    color: black;
+}
+div.logo h1:hover{
+color: green;
+}
+div.logo h1 span{
+    color: green;
+}
+div.logo p{
+    position: relative;
+    display: flex;
+    left: -220px;
+    top: -10px;
+}
+div.logo p.contact{
+    position: relative;
+    display: flex;
+    left: -250px;
+    top: -40px;
+    font-size: 15px ;
+}
+.feedback label{
+    position: relative;
+    top: -90px;
+    left: 200px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.feedback input{
+    position: relative;
+    top: -30px;
+    left: 210px;
+    padding: 50px;
+    box-shadow: 0px 0px 1px 1px rgb(223, 218, 218);
+}
+.feedback button{
+    position: relative;
+    left: 50px;
+    top: 60px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 0px 3px black;
+}
+.feedback button:hover{
+    background-color: white;
+    color: black;
 }
